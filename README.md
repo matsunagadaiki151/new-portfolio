@@ -1,2 +1,2 @@
-# new_portofolio
-My modern portofolio
+# new_portfolio
+My modern portfolio
