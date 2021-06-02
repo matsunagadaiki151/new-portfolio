@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+    color: white;
+    padding : 10px 20px 10px 20px;
+}
+
+.contents {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.top {
+    border: green solid 1px;
+    padding: 10px 20px 10px 20px;
+}
+
+.tech {
+    border: red solid 1px;
+    padding: 10px 20px 10px 20px;
+}
+
+.link {
+    border: blue solid 1px;
+    padding: 10px 20px 10px 20px;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+}
