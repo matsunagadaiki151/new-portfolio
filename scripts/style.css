@@ -1,30 +1,217 @@
 header {
     background-color: black;
-    color: white;
-    padding : 10px 20px 10px 20px;
+    width: 100%;
+    height: 54px;
+    margin: 0 auto;
+    
+}
+html {
+overflow-x: hidden;
+}
+
+body {
+    margin: 0;
 }
 
 .contents {
     background-color: white;
-    padding: 10px 20px 10px 20px;
+    height: 600px;
+    text-align: left;
+    width: 100%;
 }
 
 .top {
-    border: green solid 1px;
     padding: 10px 20px 10px 20px;
 }
 
 .tech {
-    border: red solid 1px;
     padding: 10px 20px 10px 20px;
 }
 
 .link {
-    border: blue solid 1px;
     padding: 10px 20px 10px 20px;
 }
 
-footer {
-    background-color: yellow;
-    padding: 10px 20px 10px 20px;
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.footer span {
+   float: right;
+   font-size: 10px;
+   color:white;
+   padding-top:5px;
+   padding-right: 30px;
+}
+
+
+.container {
+    width: 100;
+    padding: 0 0px;
+    margin: 0 auto;
+  }
+
+  .title img {
+      height: 36px;
+      width: auto;
+      background-color: white;
+      border-radius: 50%;
+      margin-top:10px;
+  }
+
+  .title span {
+      height:36;
+      width: auto;
+      display: flex;
+      color:white;
+      padding:15px 0px 0px 0px;
+      margin : 0px 0px 0px 5px;
+  }
+
+  .title {
+      display: flex;
+      text-decoration: none;
+      float: left;
+      justify-content: center;
+      margin-left: 10px;
+  }
+
+  .top {
+      background-image: url(../images/home.png);
+      padding-top: 180px;
+      padding-bottom: 350px;
+      width:100%;
+      background-size: cover;
+  }
+
+  .top p {
+    color: white;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 54px;
+    line-height:2;
+    padding-left:40px;
+}
+
+.tech {
+    height: 500px;
+}
+
+.available {
+    height: 50px;
+    width : auto;
+    padding-left:15px;
+}
+
+.available p {
+    font-size: 36px;
+    padding: auto;
+    margin-block-start: 0px;
+}
+
+.technologies {
+    width:100%;
+    height: 400px;
+    float:left;
+    margin: 60px 20px 0px 40px;
+}
+
+.tech-content {
+    float:left;
+    text-align: center;
+    width : 30%;
+    height: 300px;
+    margin: 0 auto;
+    
+
+}
+
+.technology {
+    width: 80%;
+    height:300px;
+    border: black solid 1px;
+    border-radius: 5%;
+}
+.technology img {
+    height: 50%;
+    width: auto;
+    float : center;
+    margin: 0 auto;
+}
+
+.technology h3 {
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.technology p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.link {
+    height: 150px;
+}
+.link-title {
+    font-size: 36px;
+    padding: auto;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 15px;
+}
+
+.link-wrapper {
+    height:100px;
+    width:100%;
+    margin : 20px auto;
+    float: none;
+}
+
+.link-contents {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.link-contents span {
+    font-size: 24px;
+}
+
+.link-btn {
+    display: inline-block;
+    text-decoration: none;
+    width:50%;
+    margin:0 auto;
+    border-radius: 5%;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+
+}
+
+.twitter span {
+    color : white;
+}
+
+.github {
+    background-color: #171515;
+
+}
+
+.github span {
+    color : white;
+}
+
+.wantedly {
+    color:#21DBDB;
+    background-color: #F5F5F5;
+    border:rgb(126, 115, 115) solid 2px;
 }
