@@ -12,7 +12,7 @@ header {
 body {
     font-family: "Hiragino Maru Gothic Pro W4";
     margin: 0;
-    max-width: 100%;
+    max-width: 1500px;
 }
 
 .contents {
@@ -42,7 +42,7 @@ footer {
     background-color: #333333;
 
 }
-s
+
 footer span {
    float: right;
    font-size: 18px;
