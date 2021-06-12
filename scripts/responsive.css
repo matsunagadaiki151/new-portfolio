@@ -1,0 +1,9 @@
+@media (max-width : 670px) {
+    .title span {
+        color : red
+    }
+
+    .top p {
+        color : red
+    }
+}
