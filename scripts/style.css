@@ -21,10 +21,6 @@ body {
     width: 100%;
 }
 
-.top {
-    padding: 10px 20px 10px 20px;
-}
-
 .tech {
     padding: 10px 20px 10px 20px;
 }
@@ -86,8 +82,9 @@ footer span {
       margin-left: 10px;
   }
 
-  .top {
+.top {
       background-image: url(../images/home.png);
+      opacity: 0.8;
       padding-top: 180px;
       padding-bottom: 350px;
       width:100%;
@@ -95,8 +92,9 @@ footer span {
       box-shadow: 0px 10px 5px #eeeeee;
   }
 
-  .top p {
-    color: white;
+.top p {
+    color: #00afcc;
+    font-weight: bold;
     font-family: "Hiragino Kaku Gothic ProN";
     font-size: 54px;
     line-height:2;
